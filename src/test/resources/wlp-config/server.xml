@@ -1,0 +1,13 @@
+<server description="developmentServer">
+
+	<featureManager>
+		<feature>localConnector-1.0</feature>
+		<feature>servlet-3.0</feature>
+		<feature>cdi-1.0</feature>
+		<feature>jndi-1.0</feature>
+	</featureManager>
+
+	<httpEndpoint id="defaultHttpEndpoint" httpPort="9080" httpsPort="9443" />
+
+	<applicationMonitor dropinsEnabled="true" updateTrigger="mbean" />
+</server>
